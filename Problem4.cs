@@ -1,4 +1,3 @@
-//CONFIRMED from bloodwed12
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +23,7 @@ namespace ConsoleApplication36
             double totalSugar = sugarPer100ml * volume / 100.0;
 
             //We print
-            Console.WriteLine("{0}ml {1}:", volume, dinkName);
+            Console.WriteLine("{0}ml {1}:", volume, drinkName);
             Console.WriteLine("{0}kcal, {1}g sugars", totalEnergy, totalSugar);
 
 
