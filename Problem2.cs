@@ -1,3 +1,4 @@
+//CONFIRMED from bloodwed12
 using System;
 
 namespace RectangleArea
