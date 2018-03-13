@@ -1,4 +1,4 @@
-### Problem 2.                
+﻿### Problem 2.                
 Rectangle Area
 
 Write a program, which calculates a **rectangle’s area**, based on its **width** and **height**. The **width** and **height** come as floating point numbers
@@ -221,6 +221,71 @@ Nuka-Cola Quantum
 2100kcal, 490g sugars
  
 
+###Problem 5* Character Stats
+
+Write a program, which displays information about a video game character. You will receive their name, current health, maximum health, current energy and maximum energy on separate lines. The current values will always be valid (equal or lower than their respective max values). Print them in the format as per the examples.
+
+Examples
+
+InputOutputInputOutput
+
+Mayro
+
+5
+
+10
+
+9
+
+10Name: Mayro
+
+Health: ||||||.....|
+
+Energy: ||||||||||.|Bauser
+
+10
+
+10
+
+10
+
+10Name: Bauser
+
+Health: ||||||||||||
+
+Energy: ||||||||||||
+
+InputOutputInputOutput
+
+Loogi
+
+8
+
+20
+
+2
+
+14Name: Loogi
+
+Health: |||||||||............|
+
+Energy: |||............|Toad
+
+0
+
+5
+
+0
+
+10Name: Toad
+
+Health: |.....|
+
+Energy: |..........|
+
+Hints
+
+You can print a character multiple times, using new string(character, count).
 
 
  
