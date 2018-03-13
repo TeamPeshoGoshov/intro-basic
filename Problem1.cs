@@ -15,7 +15,7 @@ namespace DebitCardNumber
             int fourthNumber = int.Parse(Console.ReadLine());
 
             //prints them in 4-digit debit card format
-            Console.WriteLine($"{firstNumber:D4} {secondNumber:D4} {thirdNumber:D4} {fourthNumber:D4}");
+            Console.WriteLine($"{firstNum:D4} {secondNumber:D4} {thirdNumber:D4} {fourthNumber:D4}");
         }
     }
 }

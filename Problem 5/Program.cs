@@ -1,4 +1,5 @@
-﻿using System;
+﻿//CONFRIMED from MihailYordanov
+using System;
 
 namespace CharacterStats
 {

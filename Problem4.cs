@@ -1,4 +1,4 @@
-//CONFIRMED from bloodwed12
+//CONFIRMED from vesy53
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication36
 {
+   
     class Program
     {
         static void Main(string[] args)
         {
             //We recive from the Console the product name -> string;
-            var product = Console.ReadLine();
+            var drinkName = Console.ReadLine();
             /*In the next three lines, we recive volume,
              * energy and sugar content of our products,
              * as and integer */
@@ -24,7 +25,7 @@ namespace ConsoleApplication36
             double totalSugar = sugarPer100ml * volume / 100.0;
 
             //We print
-            Console.WriteLine("{0}ml {1}:", volume, product);
+            Console.WriteLine("{0}ml {1}:", volume, drinkName);
             Console.WriteLine("{0}kcal, {1}g sugars", totalEnergy, totalSugar);
 
 
