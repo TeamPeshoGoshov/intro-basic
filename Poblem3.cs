@@ -7,11 +7,11 @@ namespace MilesToKilometers
         static void Main(string[] args)
         {
             //CONFIRMED from - Insert000 
-            double miles = double.Parse(Console.ReadLine()); //This is the input
+            double milesValue = double.Parse(Console.ReadLine()); //This is the input
 
-            double kilometers = miles * 1.60934; // Here the user calculates,kilometers in miles
+            double kilometersValue = miles * 1.60934; // Here the user calculates,kilometers in miles
 
-            Console.WriteLine($"{kilometers:f2}"); // The result
+            Console.WriteLine($"{kilometersValue:f2}"); // The result
         }
     }
 }
