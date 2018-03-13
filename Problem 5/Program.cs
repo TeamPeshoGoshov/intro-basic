@@ -1,4 +1,4 @@
-﻿//CONFRIMED from MihailYordanov
+﻿//CONFIRMED from MihailYordanov
 using System;
 
 namespace CharacterStats
