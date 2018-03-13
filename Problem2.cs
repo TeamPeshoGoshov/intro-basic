@@ -7,14 +7,14 @@ namespace RectangleArea
         static void Main(string[] args)
         {
             //Here is width and height of rectangle.
-            double width = double.Parse(Console.ReadLine());
-            double height = double.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
 
             //Rectangle area.
-            double rectangleArea = width * height;
+            double area = a * b;
 
             //Print rectangle area.
-            Console.WriteLine($"{rectangleArea:f2}");
+            Console.WriteLine($"{area:f2}");
         }
     }
 }
