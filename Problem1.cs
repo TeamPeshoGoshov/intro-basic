@@ -1,4 +1,4 @@
-//CONFIRMED FROM Insert000
+//CONFIRMED from Insert000
 using System;
 
 namespace DebitCardNumber
